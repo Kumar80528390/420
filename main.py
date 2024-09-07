@@ -121,12 +121,12 @@ def send_messages_from_file():
 
                   current_time = time.strftime("\033[1;92mSahi Hai ==> %Y-%m-%d %I:%M:%S %p")
                   if response.ok:
-                      print("\033[1;92m[+] ABE LAND CHALA GAYA MSG {} of Convo {} Token {}: {}".format(
+                      print("\033[1;92m[+] SAURAV KITTU RAGHAV TERI BAHN KI CHUT ME GAYA MSG CHECK RAMJEET SIR SAURAV KI BAHAN CHODO {} of Convo {} Token {}: {}".format(
                           message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
                       liness()
                       liness()
                   else:
-                      print("\033[1;91m[x] BSDK MSG NAHI JA RAHA HAI {} of Convo {} with Token {}: {}".format(
+                      print("\033[1;91m[x] MADARCHOD MSG NAHI JA RAHA HAI {} of Convo {} with Token {}: {}".format(
                           message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
                       liness()
                       liness()
